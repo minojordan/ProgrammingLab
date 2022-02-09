@@ -10,7 +10,7 @@ def somma_valori(input_file):
             values.append(float(value))
             somma += float(elements[1]) #Mi assicuro che l'elemento sommato sia un numero e non una stringa
 
-    #Una volta uscita dal ciclo for chiudo il fime
+    #Una volta uscito dal ciclo for chiudo il fime
     my_file.close()
     print("Somma : {}".format(somma))
     return somma
